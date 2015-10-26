@@ -4,8 +4,7 @@ from bs4 import BeautifulSoup as bs
 
 file_pattern = r'([\w\-\.]+)$'
 ip_prefix = '66.90'
-base_href = 'http://downloads.khinsider.com/game-soundtracks/album/don-t-starve'
-
+base_href ="http://downloads.khinsider.com/game-soundtracks/album/flower"
 def main():
 	for url in fetch_outer_track_pages():
 		download_link = get_track_download_link(url)
